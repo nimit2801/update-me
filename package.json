@@ -1,0 +1,22 @@
+{
+  "name": "update-me",
+  "version": "1.0.0",
+  "description": "Update me is a discord bot helps to get updates on your todos and updates from people you'd want to get an update from. Also it has abilities for cron and much more.",
+  "main": "src/index.js",
+  "author": "nimit2801",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "dev": "nodemon src/index.js --trace-warnings",
+    "register": "nodemon src/registerCommands.js"
+  },
+  "type": "module",
+  "dependencies": {
+    "discord.js": "^14.11.0",
+    "node-appwrite": "^9.0.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.3.1",
+    "nodemon": "^3.0.1"
+  }
+}
